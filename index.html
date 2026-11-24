@@ -4,84 +4,81 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Thanush | Professional Profile</title>
+<title>Mr. Thanush | International Professional</title>
 <style>
 *{box-sizing:border-box}
-body{
-margin:0;
-font-family:Arial,sans-serif;
-background:#080d18;
-color:white;
-text-align:center;
-padding:30px 15px;
-}
-.card{
-max-width:420px;
-margin:30px auto;
-padding:30px 20px;
-background:#141e30;
-border:1px solid #263b58;
-border-radius:20px;
-}
-.avatar{
-width:90px;
-height:90px;
-border-radius:50%;
-background:#263b58;
-display:grid;
-place-items:center;
-margin:auto;
-font-size:35px;
-}
-h1{color:#60a5fa}
-.role{color:#b8c7dc}
-.info{
-text-align:left;
-background:#0c1525;
-padding:15px;
-border-radius:12px;
-margin-top:20px;
-line-height:2;
-}
-.qr{
-margin-top:25px;
-background:white;
-padding:12px;
-border-radius:12px;
-width:180px;
-}
-a{color:#60a5fa}
-footer{color:#8291a8;font-size:12px}
+body{margin:0;font-family:Arial,sans-serif;background:#080e1b;color:white}
+header{padding:45px 20px;text-align:center;background:linear-gradient(135deg,#142b4d,#080e1b)}
+.profile{width:145px;height:145px;border-radius:50%;object-fit:cover;border:4px solid #65aaff}
+h1{color:#69aaff;font-size:34px;margin:18px 0 8px}
+h2{color:#69aaff}
+p{line-height:1.7;color:#cbd5e1}
+section{max-width:850px;margin:25px auto;padding:25px;background:#121e33;border:1px solid #263c5c;border-radius:18px}
+.hero{color:#9fc8ff;font-size:18px}
+.details{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.item{background:#0b1426;padding:16px;border-radius:10px}
+.portfolio{width:100%;border-radius:12px;margin-top:12px}
+.qr{width:190px;background:white;padding:12px;border-radius:12px;margin:15px auto;display:block}
+button{background:#2676d2;color:white;border:0;padding:13px 22px;border-radius:8px;font-size:15px}
+a{color:#78b7ff}
+footer{text-align:center;padding:30px;color:#8998ad}
+@media(max-width:550px){.details{grid-template-columns:1fr}h1{font-size:28px}section{margin:16px}}
 </style>
 </head>
 <body>
-<div class="card">
-<div class="avatar">T</div>
+
+<header>
+<img src="profile.jpg" class="profile" alt="Thanush profile photo">
 <h1>MR. THANUSH</h1>
-<p class="role">Software Development Enthusiast</p>
+<p class="hero">International Professional Digital Profile</p>
+<p>Software Development Enthusiast</p>
+</header>
 
-<div class="info">
-<b>Digital Professional Profile</b><br>
-Name: Thanush<br>
-Username: Thanush007X<br>
-Profession: Aspiring Software Developer<br>
-Skills: Technology & Programming<br>
-Status: Independent Learner<br>
-Profile: Personal Digital ID
+<section>
+<h2>Professional Profile</h2>
+<div class="details">
+<div class="item"><b>Name</b><p>Thanush</p></div>
+<div class="item"><b>Username</b><p>Thanush007X</p></div>
+<div class="item"><b>Profession</b><p>Aspiring Software Developer</p></div>
+<div class="item"><b>Status</b><p>Independent Learner</p></div>
 </div>
+</section>
 
-<h3>Scan My Digital Profile</h3>
+<section>
+<h2>About Me</h2>
+<p>Hello! I am Thanush, an independent learner passionate about software development, technology and programming. I am continuously learning and building my digital skills.</p>
+</section>
+
+<section>
+<h2>Skills & Interests</h2>
+<div class="details">
+<div class="item">💻 Software Development</div>
+<div class="item">🌐 Web Technology</div>
+<div class="item">⚙️ Programming</div>
+<div class="item">🚀 Continuous Learning</div>
+</div>
+</section>
+
+<section>
+<h2>Developer Portfolio</h2>
+<img src="developer.jpg" class="portfolio" alt="Thanush working on a laptop">
+<p>Technology • Creativity • Continuous Growth</p>
+</section>
+
+<section style="text-align:center">
+<h2>Scan My Digital Profile</h2>
+<p>Scan the QR code to visit my professional website.</p>
 <img class="qr"
-src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https%3A%2F%2Fthanush007x.github.io"
+src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https%3A%2F%2Fthanush007x.github.io%2F"
 alt="Website QR Code">
-
-<p>
-<a href="https://github.com/Thanush007X">My GitHub Profile</a>
-</p>
+<p><a href="https://thanush007x.github.io/">Visit My Website</a></p>
+</section>
 
 <footer>
-Personal Digital Identity | Not an employer-issued ID
+<p>MR. THANUSH | THANUSH007X</p>
+<p>Personal Digital Identity • Independent Learner</p>
+<p>This is a personal profile, not an employer-issued ID or official professional certification.</p>
 </footer>
-</div>
+
 </body>
 </html>
